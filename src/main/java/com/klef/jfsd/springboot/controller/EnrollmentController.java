@@ -15,7 +15,7 @@ import com.klef.jfsd.springboot.services.CourseService;
 
 @RestController
 @RequestMapping("/api/v1/enrollments")
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true") 
+@CrossOrigin(origins = "https://coursemanagement1432.netlify.app/", allowCredentials = "true") 
 public class EnrollmentController {
 
 	@Autowired
