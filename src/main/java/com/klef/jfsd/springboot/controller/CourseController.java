@@ -15,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/courses")
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")  // Enable CORS for the frontend React app
+@CrossOrigin(origins = "https://coursemanagement1432.netlify.app/", allowCredentials = "true")  // Enable CORS for the frontend React app
 public class CourseController {
 
     @Autowired
