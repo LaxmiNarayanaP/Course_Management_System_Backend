@@ -17,7 +17,7 @@ import jakarta.servlet.http.HttpSession;
 
 @RestController
 @RequestMapping("/api/v1/users")
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+@CrossOrigin(origins = "https://coursemanagement1432.netlify.app/", allowCredentials = "true")
 public class UserController {
 
     @Autowired
